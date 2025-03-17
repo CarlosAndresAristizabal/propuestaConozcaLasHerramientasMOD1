@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>
+        Conozca las herramientas y los beneficios de contar con sus inventarios automatizados
+    </title>
+    <!-- InstanceEndEditable -->
+    <!-----------------------------------------
+CSS
+------------------------------------------>
+    <!--Bootstrap-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/botones.css" rel="stylesheet" type="text/css" />
+    <!--Main-->
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+    <!--Font awesome-->
+    <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <!--Animate-->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- InstanceBeginEditable name="head" -->
+    <link rel="stylesheet" href="js/accordion/accordion.css" />
+    <!--Slider-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- InstanceEndEditable -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Oswald:wght@300;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Javascript-->
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script type="text/javascript">
+        function imageAlert() {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Actividad guardada',
+                showConfirmButton: false,
+                timer: 1500,
+            })
+        }
+    </script>
+
+    <!-----------------------------------------
+		HEADER
+------------------------------------------>
+    <div id="main-header-2" class="img-responsive logos-img wow animated bounceInRight" data-wow-delay="0.5">
+        <div class="lista">
+            <ul>
+                <li>
+                    <a href="#" id="menu"><img src="img/Img_Inventoria/Btn_Menu_1.png" alt=""> </a>
+                </li>
+                <li>
+                    <a href="#" id="btn1" onclick="imageAlert()"> <img src="img/Img_Inventoria/Btn_Guardar_1.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#popup" id="btn2" data-toggle="modal"><img src="img/Img_Inventoria/Btn_Info_menu_1.png" alt=""> </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- <-------modal-------->
+    <div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog-popup" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="" style="margin-top: 20px;">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Img_Inventoria/GuiaModulo.png" alt="" height="600" class="mb-4" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------------
+MENU
+------------------------------------------>
+    <!--Menu opener-->
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <div class="row">
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <p>Menú principal</p>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <a class="close-menu" id="close-menu"><img src="img/icono-cerrar2.png" alt="Cerrar" width="20" height="20" /></a>
+                    </div>
+                </div>
+                <li>
+                    <a href="#" onclick="parent.postMessage('1', '*');"><i class="fa fa-home"></i>Inicio</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('2', '*');"><i class="fa fa-arrow-right"></i> Público
+                        objetivo</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('3', '*');"><i class="fa fa-arrow-right"></i>
+                        Introducción</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('4', '*');"><i class="fa fa-arrow-right"></i> Frase
+                        memorable</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('5', '*');"><i class="fa fa-arrow-right"></i> Objetivos</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('6', '*');"><i class="fa fa-arrow-right"></i> Mapa
+                        temático</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('7', '*');"><i class="fa fa-arrow-right"></i> Módulo 1 -
+                        ¿Qué es la automatización y ventajas de la automatización? </a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('8', '*');"><i class="fa fa-arrow-right"></i>
+                        Introducción</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('9', '*');"><i class="fa fa-arrow-right"></i>Ventajas de la automatización</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('12', '*');"><i class="fa fa-arrow-right"></i>Por qué es necesario un software de gestión de inventarios</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('14', '*');"><i class="fa fa-arrow-right"></i>¿Cómo llevar una gestión de inventarios de forma eficiente?</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('17', '*');"><i class="fa fa-arrow-right"></i>Funcionalidad de la herramienta de gestión de inventarios</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-----------------------------------------
+CONTENT
+------------------------------------------>
+
+    <!-- InstanceBeginEditable name="Content" -->
+    <audio autoplay>
+      <source src="sound/MEI M1 A17P9.mp3" type="audio/mp3" />
+    </audio>
+
+    <div class="row fondocontenidos">
+        <div class="container">
+            <h1 class="mt-0">Ventajas de una gestión eficaz del inventario de activos</h1>
+            <br>
+            <div class="col-md-7">
+                <div class="lightyellow-bkg p-5">
+                    <div class="owl-carousel">
+                        <div class="mt-lg-5">
+                            <div class="row align-items-center"></div>
+                            <p>Con la adaptación de un software de gestión de inventario en una empresa, se procesa de forma rápida la oferta y la demanda de los artículos, para así conseguir mejorar los márgenes de los usuarios y minimizando las paradas
+                                no planeadas. </p>
+                        </div>
+                        <div class="mt-lg-5">
+                            <div class="row align-items-center">
+                            </div>
+                            <p>Se obtiene un almacén inteligente y automatizado, donde los procesos logísticos se ejecutan por equipos informatizados y se eliminan las tareas repetitivas, de manera que los trabajadores puedan centrarse en otras operativas
+                                que añadan valor al producto.</p>
+                        </div>
+                        <div class="mt-lg-5">
+                            <div class="row align-items-center">
+                            </div>
+                            <p>También se pueden sustituir los sistemas convencionales de operación, sustituyéndolos por robots, que operan bajo el control del software de gestión de inventario.</p>
+                            <p>Todos estos cambios generan un beneficio en la logística de una compañía y el control de <i> stock.</i> </p>
+                        </div>
+                        <div class="mt-lg-5">
+                            <div class="row align-items-center">
+                            </div>
+                            En el siguiente link usted podrá descargar una serie de consejos para llevar un control de inventarios eficiente:
+                            <!-- botones luminosos -->
+                            <div id="BotonAdelante">
+                                <div class="body-btn">
+                                    <div class="container-btn-ligyh-luz">
+                                        <div class="btn-light-luz_doc">
+                                            <a href="archivos/Pdf/Profundizar_el_tema.pdf" target="_blank" alt=""><img src="img/Img_Inventoria/pdf.png" />
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><br><br>
+
+                        </div>
+                    </div>
+                    <!-- --------boton-de-info-botones-carrosel---------- -->
+                    <center>
+                        <br />
+                        <div class="info">
+                            <img src="img/Img_Inventoria/informacion.png" alt="" />
+                            <p>Haga clic en los botones marrones para ver más información.</p>
+                        </div>
+                        <br />
+                    </center>
+                    <!-- --------final-boton-de-info-botones-carrosuel---------- -->
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="inverimg">
+                    <img src="img/Img_Inventoria/Elige.png" alt="#" class="img-responsive wow animated fadeInDown" style="margin-top:-100px;" />
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- InstanceEndEditable -->
+
+    <!-----------------------------------------
+FOOTER
+------------------------------------------>
+    <div id="footer">
+        <div class="container">
+            <div class="progress progress-striped active">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 57%">
+                    <span class="sr-only">57% completado</span>
+                </div>
+            </div>
+            <div class="inner-footer">
+                <p class="pr-4 pl-4">Página 15/ 27</p>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------------
+JAVASCRIPT
+------------------------------------------>
+    <!--Jquery-->
+    <script src="js/jquery.js "></script>
+
+    <!--Bootstrap-->
+    <script src="js/modal.js "></script>
+    <!--main-->
+    <script src="js/main.js "></script>
+
+    <!--wow-->
+    <script src="js/wow.js "></script>
+    <!-- InstanceBeginEditable name="Javascript " -->
+    <script src="js/accordion/accordion.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            margin: 10,
+            loop: true,
+            dots: true,
+            autoHeight: true,
+        })
+    </script>
+
+    <!--Active menu element-->
+    <script>
+        $('.overlay ul li:nth-child(4) a').addClass('active')
+    </script>
+    <!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd -->
+
+</html>

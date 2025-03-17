@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>
+        Conozca las herramientas y los beneficios de contar con sus inventarios automatizados
+    </title>
+    <!-- InstanceEndEditable -->
+    <!-----------------------------------------
+CSS
+------------------------------------------>
+    <!--Bootstrap-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/botones.css" rel="stylesheet" type="text/css" />
+    <!--Main-->
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+    <!--Font awesome-->
+    <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <!--Animate-->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- InstanceBeginEditable name="head" -->
+    <link rel="stylesheet" href="js/accordion/accordion.css" />
+    <!--Slider-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- InstanceEndEditable -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Oswald:wght@300;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Javascript-->
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script type="text/javascript">
+        function imageAlert() {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Actividad guardada',
+                showConfirmButton: false,
+                timer: 1500,
+            })
+        }
+    </script>
+
+    <!-----------------------------------------
+		HEADER
+------------------------------------------>
+    <div id="main-header-1" class="img-responsive logos-img wow animated bounceInRight" data-wow-delay="0.5">
+        <div class="lista">
+            <ul>
+                <li>
+                    <a href="#" id="menu"><img src="img/Img_Inventoria/Btn_Menu_1.png" alt=""> </a>
+                </li>
+                <li>
+                    <a href="#" id="btn1" onclick="imageAlert()"> <img src="img/Img_Inventoria/Btn_Guardar_1.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#popup" id="btn2" data-toggle="modal"><img src="img/Img_Inventoria/Btn_Info_menu_1.png" alt=""> </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- <-------modal-------->
+    <div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog-popup" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Img_Inventoria/GuiaModulo.png" alt="" height="600" class="mb-4" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------------
+MENU
+------------------------------------------>
+    <!--Menu opener-->
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <div class="row">
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <p>Menú principal</p>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <a class="close-menu" id="close-menu"><img src="img/icono-cerrar2.png" alt="Cerrar" width="20" height="20" /></a>
+                    </div>
+                </div>
+                <li>
+                    <a href="#" onclick="parent.postMessage('1', '*');"><i class="fa fa-home"></i>Inicio</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('2', '*');"><i class="fa fa-arrow-right"></i> Público
+                        objetivo</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('3', '*');"><i class="fa fa-arrow-right"></i>
+                        Introducción</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('4', '*');"><i class="fa fa-arrow-right"></i> Frase
+                        memorable</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('5', '*');"><i class="fa fa-arrow-right"></i> Objetivos</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('6', '*');"><i class="fa fa-arrow-right"></i> Mapa
+                        temático</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('7', '*');"><i class="fa fa-arrow-right"></i> Módulo 1 -
+                        ¿Qué es la automatización y ventajas de la automatización? </a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('8', '*');"><i class="fa fa-arrow-right"></i>
+                        Introducción</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('9', '*');"><i class="fa fa-arrow-right"></i>Ventajas de la automatización</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('12', '*');"><i class="fa fa-arrow-right"></i>Por qué es necesario un software de gestión de inventarios</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('14', '*');"><i class="fa fa-arrow-right"></i>¿Cómo llevar una gestión de inventarios de forma eficiente?</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.postMessage('17', '*');"><i class="fa fa-arrow-right"></i>Funcionalidad de la herramienta de gestión de inventarios</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-----------------------------------------
+CONTENT
+------------------------------------------>
+
+    <!-- InstanceBeginEditable name="Content" -->
+    <audio autoplay><source src="sound/BEI M1 A6P3.mp3" type="audio/mp3" />
+    </audio>
+
+    <div class="row fondocontenidos">
+        <div class="container">
+            <h1 class="mt-0">Mapa temático</h1>
+            <p>En este curso vamos a desarrollar los siguientes temas:</p>
+            <div class="col-md-7">
+                <!-- Acordion -->
+                <div class="accordionWrapper mt-3">
+                    <div class="accordionButton">MÓDULO I</div>
+                    <div class="accordionContent">
+                        <h2>
+                            ¿QUÉ ES LA AUTOMATIZACIÓN Y VENTAJAS DE LA AUTOMATIZACIÓN?
+                        </h2>
+                        <br>
+                        <li>Ventajas de la automatización.</li>
+                        <li>
+                            Por qué es necesario un software de gestión de inventarios
+                        </li>
+                        <li>¿Cómo llevar una gestión de inventarios de forma eficiente?</li>
+                        <li>Funcionalidad de la herramienta de gestión de inventarios</li>
+                    </div>
+                    <div class="accordionButton">MÓDULO II</div>
+                    <div class="accordionContent">
+                        <h2>
+                            TECNOLOGÍAS EN EL MERCADO PARA LA SISTEMATIZACIÓN DE INVENTARIOS
+                        </h2>
+                        <br>
+                        <li>
+                            Software para la gestión de almacenes
+                        </li>
+                        <li>Automatización de etiquetado y escaneo</li>
+                        <li>Soluciones en la nube.</li>
+                        <li>
+                            Estrategias para la automatización en la gestión del inventario.
+                        </li>
+                        <li>Aplicaciones para la gestión de inventarios y almacenes</li>
+                    </div>
+                </div>
+                <!-- --------boton-de-info-títulos---------- -->
+                <center>
+                    <br />
+                    <div class="info">
+                        <img src="img/Img_Inventoria/informacion.png" alt="" />
+                        <p>Haga clic en los títulos para ver más información.</p>
+                    </div>
+                    <br />
+                </center>
+                <!-- --------final-boton-de-info-títulos---------- -->
+                <!-- final Acordion -->
+            </div>
+            <div class="col-md-5">
+                <div class="inverimg">
+                    <img src="img/Img_Inventoria/Mapa_tematico.png" alt="#" class="img-responsive wow animated bounceInRight" />
+                </div>
+            </div>
+        </div>
+
+
+        <!-- InstanceEndEditable -->
+
+        <!-----------------------------------------
+FOOTER
+------------------------------------------>
+        <div id="footer">
+            <div class="container">
+                <div class="progress progress-striped active">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 21%">
+                        <span class="sr-only">21% completado</span>
+                    </div>
+                </div>
+                <div class="inner-footer">
+                    <p class="pr-4 pl-4">Página 6/ 27</p>
+                </div>
+            </div>
+        </div>
+
+        <!-----------------------------------------
+JAVASCRIPT
+------------------------------------------>
+        <!--Jquery-->
+        <script src="js/jquery.js"></script>
+
+        <!--Bootstrap-->
+        <script src="js/modal.js"></script>
+        <!--main-->
+        <script src="js/main.js"></script>
+
+        <!--wow-->
+        <script src="js/wow.js"></script>
+        <!-- InstanceBeginEditable name="Javascript" -->
+        <script src="js/accordion/accordion.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                items: 1,
+                margin: 10,
+                loop: true,
+                dots: true,
+                autoHeight: true,
+            })
+        </script>
+
+        <!--Active menu element-->
+        <script>
+            $('.overlay ul li:nth-child(4) a').addClass('active')
+        </script>
+        <!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd -->
+
+</html>
