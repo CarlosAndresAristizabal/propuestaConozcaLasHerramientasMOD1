@@ -55,13 +55,16 @@ CSS
         <div class="lista">
             <ul>
                 <li>
-                    <a href="#" id="menu"><img src="img/Img_Inventoria/Btn_Menu_1.png" alt=""> </a>
+                    <a href="#" id="menu"><img src="img/Img_Inventoria/Btn_Menu_1.png" alt="" />
+                    </a>
                 </li>
                 <li>
-                    <a href="#" id="btn1" onclick="imageAlert()"> <img src="img/Img_Inventoria/Btn_Guardar_1.png" alt=""></a>
+                    <a href="#" id="btn1" onclick="imageAlert()">
+                        <img src="img/Img_Inventoria/Btn_Guardar_1.png" alt="" /></a>
                 </li>
                 <li>
-                    <a href="#popup" id="btn2" data-toggle="modal"><img src="img/Img_Inventoria/Btn_Info_menu_1.png" alt=""> </a>
+                    <a href="#popup" id="btn2" data-toggle="modal"><img src="img/Img_Inventoria/Btn_Info_menu_1.png" alt="" />
+                    </a>
                 </li>
             </ul>
         </div>
@@ -71,21 +74,20 @@ CSS
         <div class="modal-dialog-popup" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+
                 </div>
                 <div class="modal-body">
                     <img src="img/Img_Inventoria/GuiaModulo.png" alt="" height="600" class="mb-4" />
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="close" data-dismiss="modal" aria-label="">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+            <span aria-hidden="true">&times;</span>
+          </button>
                 </div>
             </div>
         </div>
     </div>
+
     <!-----------------------------------------
 MENU
 ------------------------------------------>
@@ -93,55 +95,47 @@ MENU
     <div class="overlay" id="overlay">
         <nav class="overlay-menu">
             <ul>
-                <div class="row">
-                    <div class="col-md-10 col-sm-10 col-xs-10">
+                <div class = "row">
+                <div class = "col-md-10 col-sm-10 col-xs-10">
                         <p>Menú principal</p>
                     </div>
-                    <div class="col-md-2 col-sm-2 col-xs-2">
-                        <a class="close-menu" id="close-menu"><img src="img/icono-cerrar2.png" alt="Cerrar" width="20" height="20" /></a>
+                    <div class  = "col-md-2 col-sm-2 col-xs-2">
+                    <a   class  = "close-menu" id = "close-menu"><img src = "img/icono-cerrar2.png" alt = "Cerrar" width = "20"
+                         height = "20" /></a>
                     </div>
                 </div>
                 <li>
-                    <a href="#" onclick="parent.postMessage('1', '*');"><i class="fa fa-home"></i>Inicio</a>
+                    <a href = "#" onclick = "parent.postMessage('1', '*');">Inicio</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.postMessage('2', '*');"><i class="fa fa-arrow-right"></i> Público
-                        objetivo</a>
+                    <a href = "#" onclick = "parent.postMessage('2', '*');"></i> Público objetivo</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.postMessage('3', '*');"><i class="fa fa-arrow-right"></i>
-                        Introducción</a>
+                    <a href = "#" onclick = "parent.postMessage('3', '*');"></i>Introducción</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.postMessage('4', '*');"><i class="fa fa-arrow-right"></i> Frase
+                    <a href = "#" onclick = "parent.postMessage('4', '*');"></i> Frase
                         memorable</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.postMessage('5', '*');"><i class="fa fa-arrow-right"></i> Objetivos</a>
+                    <a href = "#" onclick = "parent.postMessage('5', '*');"></i> Objetivos</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.postMessage('6', '*');"><i class="fa fa-arrow-right"></i> Mapa
+                    <a href = "#" onclick = "parent.postMessage('6', '*');"></i> Mapa
                         temático</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.postMessage('7', '*');"><i class="fa fa-arrow-right"></i> Módulo 1 -
-                        ¿Qué es la automatización y ventajas de la automatización? </a>
+                    <a href = "#" onclick = "parent.postMessage('7', '*');"></i> Módulo 1 -
+                        ¿TEMA? </a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.postMessage('8', '*');"><i class="fa fa-arrow-right"></i>
+                    <a href = "#" onclick = "parent.postMessage('8', '*');"></i>
                         Introducción</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.postMessage('9', '*');"><i class="fa fa-arrow-right"></i>Ventajas de la automatización</a>
-                </li>
+                    <a href = "#" onclick = "parent.postMessage('9', '*');"></i>Subtema</a>                </li>
                 <li>
-                    <a href="#" onclick="parent.postMessage('12', '*');"><i class="fa fa-arrow-right"></i>Por qué es necesario un software de gestión de inventarios</a>
-                </li>
-                <li>
-                    <a href="#" onclick="parent.postMessage('14', '*');"><i class="fa fa-arrow-right"></i>¿Cómo llevar una gestión de inventarios de forma eficiente?</a>
-                </li>
-                <li>
-                    <a href="#" onclick="parent.postMessage('17', '*');"><i class="fa fa-arrow-right"></i>Funcionalidad de la herramienta de gestión de inventarios</a>
+                    <a href = "#" onclick = "parent.postMessage('12', '*');"></i>Subtema</a>
                 </li>
             </ul>
         </nav>
@@ -151,15 +145,46 @@ CONTENT
 ------------------------------------------>
 
     <!-- InstanceBeginEditable name="Content" -->
-    <!-- <audio autoplay>
-      <source src="sound/MEI M1 A9_1P4.mp3" type="audio/mp3" />
-    </audio> -->
+    <audio autoplay>
+      <source src="sound/BEI M1 A10P11.mp3" type="audio/mp3" />
+    </audio>
 
-    <div class="row fondocontenidos">
+    <div class="row fondocontenidossemaforo1">
         <div class="container">
-            <h1 class="mt-0"> Control automatizado de inventarios</h1><br>
-            <div class="col-md-12">
-                <center><video src="video/vBIA M1 V3P5.mp4" width="854" height="480" controls autoplay></video></center>
+            <h1 class="mt-0">Buena práctica:</h1>
+            <br>
+            <div class="col-md-6">
+                <div class="lightyellow-bkg p-5">
+                    <div class="owl-carousel">
+                        <div class="mt-lg-5">
+                            <div class="row align-items-center"></div>
+                            <h3>¿Buenas Prácticas?</h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nesciunt voluptas totam quod repellendus temporibus ab, tempora aut omnis explicabo suscipit atque culpa, praesentium alias, aspernatur ut modi est doloribus!
+                            </p>
+
+                        </div>
+                        <div class="mt-lg-5">
+                            <div class="row align-items-center"></div>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam officia eligendi illum maxime quaerat cupiditate, iure rerum molestiae nemo quidem, debitis libero facere nulla fuga quos hic tempora minus at.
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- --------boton-de-info-botones-carrosel---------- -->
+                    <center>
+                        <br />
+                        <div class="info">
+                            <img src="img/Img_Inventoria/informacion.png" alt="" />
+                            <p>
+                                Haga clic en los botones marrones para ver más información.
+                            </p>
+                        </div>
+                        <br />
+                    </center>
+                    <!-- --------final-boton-de-info-botones-carrosuel---------- -->
+                </div>
             </div>
         </div>
     </div>
@@ -172,12 +197,14 @@ FOOTER
     <div id="footer">
         <div class="container">
             <div class="progress progress-striped active">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 36%">
-                    <span class="sr-only">36% completado</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 61%">
+                    <span class="sr-only">61% completado</span>
                 </div>
             </div>
             <div class="inner-footer">
-                <p class="pr-4 pl-4">Página 10/ 27</p>
+                <!--<div class="next-prev"> InstanceBeginEditable name="Navegacion lineal" <a href="16.html"></a>-->
+                <p class="pr-4 pl-4">Página 10/15</p>
+                <!--<a href="37.html"></a>  InstanceEndEditable </div>-->
             </div>
         </div>
     </div>
@@ -186,18 +213,18 @@ FOOTER
 JAVASCRIPT
 ------------------------------------------>
     <!--Jquery-->
-    <script src="js/jquery.js "></script>
+    <script src="js/jquery.js"></script>
 
     <!--Bootstrap-->
-    <script src="js/modal.js "></script>
+    <script src="js/modal.js"></script>
     <!--main-->
-    <script src="js/main.js "></script>
+    <script src="js/main.js"></script>
 
     <!--wow-->
-    <script src="js/wow.js "></script>
-    <!-- InstanceBeginEditable name="Javascript " -->
-    <script src="js/accordion/accordion.js "></script>
-    <script src="js/owl.carousel.min.js "></script>
+    <script src="js/wow.js"></script>
+    <!-- InstanceBeginEditable name="Javascript" -->
+    <script src="js/accordion/accordion.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script>
         $('.owl-carousel').owlCarousel({
             items: 1,
@@ -210,7 +237,7 @@ JAVASCRIPT
 
     <!--Active menu element-->
     <script>
-        $('.overlay ul li:nth-child(4) a').addClass('active')
+        $('.overlay ul li:nth-child(12) a').addClass('active')
     </script>
     <!-- InstanceEndEditable -->
 </body>

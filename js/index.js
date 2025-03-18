@@ -1,6 +1,6 @@
 //Editar//-------------------------------------------------------------------------------------------------------------------------------
-var CantidadEscenas = 27
-var CantidadEnlacesMenu = 7
+var CantidadEscenas = 15
+var CantidadEnlacesMenu = 5
 var CantidadAdicional = 2
 var AnchoEscena = 1920
 var AltoEscena = 1080
